@@ -1,0 +1,32 @@
+#nlpt {
+    animation: a-s .5s 2.5s 1 forwards;
+    background-color: #342d6e;
+    height: 4px;
+    margin: 56px auto 20px;
+    opacity: 0;
+    overflow: hidden;
+    position: relative;
+    width: 300px;
+    color: #202124;
+    font-family: arial, sans - serif;
+    text-align: center;
+    animation: a - s .5s 2.5s 1 forwards;
+    background-color: #f1f1f1;
+    height: 4px;
+    margin: 56px auto 20px;
+    opacity: 0;
+    overflow: hidden;
+    position: relative;
+    width: 300px;
+}
+
+#nlpt::before {
+    animation: a-lb 20s 3s linear forwards;
+    background-color: #342d6e;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transform: translateX(300px);
+    width: 100%;
+}

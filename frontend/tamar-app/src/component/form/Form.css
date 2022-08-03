@@ -1,0 +1,22 @@
+.continue-btn {
+    width: 100%;
+    height: 5%;
+    margin: 0;
+    color: #8ce95d;
+    background: #342d6e;
+    border: none;
+    padding: 1%;
+    border-radius: 4px;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 10%;
+}
+
+.continue-btn:hover {
+    background: #8ce95d;
+    color: #342d6e;
+    transition: all .2s ease;
+    cursor: pointer;
+}
